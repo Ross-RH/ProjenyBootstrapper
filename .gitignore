@@ -1,0 +1,29 @@
+# Ignore NuGet Packages
+*.nupkg
+
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+
+**/[Oo]bj/*
+**/[Bb]in/*
+
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+
+# NuGet v3's project.json files produces more ignorable files
+*.nuget.props
+*.nuget.targets
+
+# Ignore other intermediate files that NuGet might create. project.lock.json is used in conjunction
+# with project.json (NuGet v3); project.assets.json is used in conjunction with the PackageReference
+# format (NuGet v4 and .NET Core).
+project.lock.json
+project.assets.json
+ProjenyBootstrapper/.vs/ProjenyBootstrapper/v15/.suo
+ProjenyBootstrapper/.vs/ProjenyBootstrapper/v15/Server/sqlite3/db.lock
+ProjenyBootstrapper/.vs/ProjenyBootstrapper/v15/Server/sqlite3/storage.ide
+ProjenyBootstrapper/.vs/ProjenyBootstrapper/v15/Server/sqlite3/storage.ide-shm
+ProjenyBootstrapper/.vs/ProjenyBootstrapper/v15/Server/sqlite3/storage.ide-wal
